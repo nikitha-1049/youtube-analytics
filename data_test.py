@@ -4,7 +4,7 @@ from channel_resolver import resolve_channel_id
 
 DB_CONFIG = {
     "user": "root",
-    "password": "Nikki66$$",
+    "password": "YOUR PASSWORD",
     "host": "localhost",
     "database": "youtube_analytics"
 }
@@ -39,5 +39,6 @@ def ensure_channel_data(query):
         etl_channel(channel_id)
     else:
         print(f"✔ Using cached DB data → {channel_id}")
+
 
     return channel_id
