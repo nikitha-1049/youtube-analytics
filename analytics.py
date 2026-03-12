@@ -150,7 +150,7 @@ def get_trends(channel_id):
 
     DB_CONFIG = {
         "user": "root",
-        "password": "Nikki66$$",
+        "password": "YOUR PASSWORD",
         "host": "localhost",
         "database": "youtube_analytics"
     }
@@ -503,3 +503,4 @@ def analyze_channel(channel_id):
         "recommendations": get_recommendations(channel_id),
 
     }
+
