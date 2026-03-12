@@ -10,7 +10,7 @@ from data_test import ensure_channel_data
 
 DB_CONFIG = {
     "user": "root",
-    "password": "Nikki66$$",
+    "password": "YOURPASSWORD",
     "host": "localhost",
     "database": "youtube_analytics",
 }
@@ -501,4 +501,5 @@ def analyze_channel(channel_id):
 
         "realtime": get_realtime_metrics(channel_id),
         "recommendations": get_recommendations(channel_id),
+
     }
