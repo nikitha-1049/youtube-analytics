@@ -6,7 +6,7 @@ import pandas as pd
 # ================== DB CONFIG ==================
 DB_CONFIG = {
     "user": "root",
-    "password": "Nikki66$$",
+    "password": "YOUR PASSWORD",
     "host": "localhost",
     "database": "youtube_analytics",
     "auth_plugin": "mysql_native_password",
@@ -158,4 +158,5 @@ def load_videos():
 if __name__ == "__main__":
     load_channels()
     load_videos()
+
     print("\n🚀 MySQL data load completed successfully!")
