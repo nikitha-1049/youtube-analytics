@@ -4,7 +4,7 @@ from datetime import datetime
 from googleapiclient.discovery import build
 
 # ==================== CONFIG ====================
-API_KEY = "AIzaSyCalxosgkvDF6j5B18wuvSYUda5QL5AOlo"   # <-- put your YouTube API key here
+API_KEY = "YOUR Youtube API key"   # <-- put your YouTube API key here
 
 KEYWORDS = [
     "education",
@@ -183,5 +183,6 @@ if __name__ == "__main__":
             print(f"❌ Error extracting channel: {cid}")
             print("Reason:", str(e))
             print("➡️ Skipping...")
+
 
     print("\n🎯 RAW DATA EXTRACTION FINISHED SUCCESSFULLY ✔")
