@@ -22,7 +22,7 @@ os.environ["OAUTHLIB_INSECURE_TRANSPORT"] = "1"
 
 DB_CONFIG = {
     "user": "root",
-    "password": "Nikki66$$",
+    "password": "YOUTUBE PASSWORD",
     "host": "localhost",
     "database": "youtube_analytics"
 }
@@ -171,4 +171,5 @@ def get_channel_profile(youtube, channel_id):
     return {
         "channel_name": c["snippet"]["title"],
         "avatar": c["snippet"]["thumbnails"]["high"]["url"]
+
     }
